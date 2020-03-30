@@ -1,12 +1,12 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container {
     width: 100vw;
-    height: 1000vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,18 +19,18 @@ nav {
     align-items: center;
     border-style: solid;
     border-top: none;
-    height: 3%;
+    height: 4%;
     width: 50%;
     background-color: indianred;
     min-width: 290px;
-    max-width: 460px;
+    max-width: 400px;
 }
 
 nav a {
     display: flex;
     align-items: center;
-    padding: 2px;
-    height: 50%;
+    padding: 3px;
+    height: 40%;
 
     border-style: solid;
     border-radius: 15%;
@@ -40,6 +40,18 @@ nav a {
     color: cornflowerblue;
     text-decoration: none;
     background-color: greenyellow;
+
+}
+
+nav a:hover {
+    background-color: indigo;
+    transition: padding 0.1s;
+    padding: 10px;
+}
+
+nav a:active {
+    transition: padding 0.1s;
+    padding: 3px;
 }
 
 footer {
