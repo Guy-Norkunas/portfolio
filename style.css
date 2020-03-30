@@ -5,12 +5,13 @@
 }
 
 .container {
-    
+
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 nav {
@@ -20,12 +21,14 @@ nav {
     align-items: center;
     border-style: solid;
     border-top: none;
+    border-width: 2px;
     height: 5%;
     width: 50%;
     background-color: indianred;
-    min-width: 320px;
+
+    min-width: 316px;
+    min-height: 30px;
     max-width: 400px;
-    min-height: 50px;
 }
 
 nav a {
@@ -33,29 +36,30 @@ nav a {
     align-items: center;
     justify-content: center;
     width: 18%;
-    height: 50%;
+    height: 60%;
 
     border-style: solid;
     border-radius: 15%;
     border-width: 1px;
 
-    font-size: 16px;
+    font-size: 100%;
     color: cornflowerblue;
     text-decoration: none;
     background-color: greenyellow;
 
     min-width: 60px;
+    max-width: 70px;
 }
 
 nav a:hover {
     background-color: indigo;
-    transition: padding 0.1s;
-    padding: 10px;
+    transition: padding 0.05s;
+    padding: 5px;
 }
 
 nav a:active {
-    transition: padding 0.1s;
-    padding: 3px;
+    transition: top 1s;
+    top: 100vh;
 }
 
 footer {
