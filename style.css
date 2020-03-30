@@ -12,7 +12,29 @@
 }
 
 nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     border-style: solid;
+    height: 3%;
+    width: 50%;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    height: 50%;
+
+    border-style: solid;
+    border-radius: 15%;
+    border-width: 1px;
+
+    font-size: large;
+    color: cornflowerblue;
+    text-decoration: none;
+    background-color: greenyellow;
+    
 }
 
 footer {
