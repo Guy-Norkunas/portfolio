@@ -11,8 +11,16 @@
     align-items: center;
 }
 
+nav {
+    border-style: solid;
+}
+
+footer {
+    border-style: solid;
+}
+
 .test {
     height: 100px;
     width: 100px;
-    background-color: blue;
+    background-color: red;
 }
