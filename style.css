@@ -70,12 +70,17 @@ nav a:active {
     top: 100vh;
 }
 
-footer {
-    border-style: solid;
+.content {
+    height: 90%;
+    width: 100%;
+    margin-top: 5%;
+    background-color: rgba(114, 146, 66, 0.3);
 }
 
-.test {
-    height: 10000px;
-    width: 100px;
-    background-color: red;
+footer {
+    height: 5%;
+    width: 100vw;
+    direction: flex;
+    justify-content: start;
 }
+
