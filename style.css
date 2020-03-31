@@ -12,7 +12,7 @@
     flex-direction: column;
     align-items: center;
 
-    background-image: url(https://images.theconversation.com/files/223729/original/file-20180619-126566-1jxjod2.jpg?ixlib=rb-1.1.0&rect=0%2C5%2C3840%2C1920&q=45&auto=format&w=1356&h=668&fit=crop);
+    background-image: linear-gradient(rgb(47, 75, 202), cornflowerblue);
     background-position: 50% top;
     background-repeat: no-repeat;
     background-attachment: scroll;
