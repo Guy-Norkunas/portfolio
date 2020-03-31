@@ -70,25 +70,25 @@ nav a:active {
 .workspace {
     display: flex;
     justify-content: center;
-    height: 100%;
+
     width: 100%;
     background-image: linear-gradient( rgb(61, 105, 224),cornflowerblue);
 }
 
 .left {
-    width: 10%;
+    width: 20%;
     height: 100%;
     background-color: rgba(0.8, 0.8, 0.8, 0.2);
 }
 
 .right {
-    width: 10%;
+    width: 20%;
     height: 100%;
     background-color: rgba(0.8, 0.8, 0.8, 0.2);
 }
 
 .content {
-    width: 80%;
+    width: 60%;
     height: 100%;
 }
 
