@@ -5,36 +5,33 @@
 }
 
 body {
-    background-image: linear-gradient(rgb(47, 75, 202), rgb(100, 149, 237));
+    background-image: linear-gradient( cornflowerblue,rgb(51, 82, 221));
     background-position: 50% top;
     background-repeat: no-repeat;
     background-attachment: scroll;
+    background-size: 100%;
 }
 
 .container {
-
+    height: 95vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    min-height: 100vh;
-
 }
 
 nav {
     position: fixed;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    border-style: solid;
-    border-top: none;
-    border-width: 2px;
+
     height: 50px;
-    width: 50%;
-    background-color: indianred;
+    width: 100%;
 
     min-width: 316px;
-    max-width: 400px;
+
+    background-image: linear-gradient( cornflowerblue,rgb(51, 82, 221));
 }
 
 nav a {
@@ -45,22 +42,24 @@ nav a {
     height: 60%;
 
     border-style: solid;
+    border-color: rgb(43, 43, 43);
     border-radius: 15%;
     border-width: 1px;
 
     font-size: 100%;
-    color: cornflowerblue;
+    color: whitesmoke;
     text-decoration: none;
-    background-color: greenyellow;
+    background-color: rgb(0, 101, 253);
+    margin: 1px;
 
     min-width: 60px;
     max-width: 70px;
 }
 
 nav a:hover {
-    background-color: indigo;
-    transition: padding 0.05s;
-    padding: 5px;
+    background-color: rgb(0, 140, 255);
+    transition: transform 0.2s linear, background-color 0.2s linear;
+
 }
 
 nav a:active {
@@ -69,25 +68,38 @@ nav a:active {
 }
 
 .workspace {
+    display: flex;
+    justify-content: center;
+    height: 100%;
     width: 100%;
-    margin-top: 50px;
-    background-color: rgba(114, 146, 66, 0.3);
-    min-height: 95vh;
+    background-image: linear-gradient( rgb(61, 105, 224),cornflowerblue);
 }
 
 .left {
     width: 10%;
     height: 100%;
+    background-color: rgba(0.8, 0.8, 0.8, 0.2);
+}
+
+.right {
+    width: 10%;
+    height: 100%;
+    background-color: rgba(0.8, 0.8, 0.8, 0.2);
+}
+
+.content {
+    width: 80%;
+    height: 100%;
 }
 
 footer {
     display: flex;
-    top: 95%;
     position: fixed;
+    top: 95%;
     height: 5%;
-    width: 100vw;
+    width: 100%;
     direction: flex;
     justify-content: start;
     align-items: center;
+    background-image: linear-gradient( cornflowerblue,rgb(51, 82, 221));
 }
-
