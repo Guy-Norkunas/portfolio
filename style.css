@@ -4,19 +4,21 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+body {
+    background-image: linear-gradient(rgb(47, 75, 202), rgb(100, 149, 237));
+    background-position: 50% top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
 .container {
 
-    width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
+    min-height: 100vh;
 
-    background-image: linear-gradient(rgb(47, 75, 202), cornflowerblue);
-    background-position: 50% top;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
 }
 
 nav {
@@ -66,17 +68,26 @@ nav a:active {
     top: 100vh;
 }
 
-.content {
-    height: 90%;
+.workspace {
     width: 100%;
     margin-top: 50px;
     background-color: rgba(114, 146, 66, 0.3);
+    min-height: 95vh;
+}
+
+.left {
+    width: 10%;
+    height: 100%;
 }
 
 footer {
+    display: flex;
+    top: 95%;
+    position: fixed;
     height: 5%;
     width: 100vw;
     direction: flex;
     justify-content: start;
+    align-items: center;
 }
 
