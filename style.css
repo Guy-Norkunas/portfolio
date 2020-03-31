@@ -32,12 +32,9 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border-style: solid;
-    border-top: none;
-    border-width: 2px;
+
     height: 50px;
     width: 50%;
-    background-color: indianred;
 
     min-width: 316px;
     max-width: 400px;
@@ -51,20 +48,21 @@ nav a {
     height: 60%;
 
     border-style: solid;
+    border-color: rgb(43, 43, 43);
     border-radius: 15%;
     border-width: 1px;
 
     font-size: 100%;
-    color: cornflowerblue;
+    color: whitesmoke;
     text-decoration: none;
-    background-color: greenyellow;
+    background-color: rgb(0, 101, 253);
 
     min-width: 60px;
     max-width: 70px;
 }
 
 nav a:hover {
-    background-color: indigo;
+    background-color: rgb(0, 140, 255);
     transition: transform 0.2s linear, background-color 0.2s linear;
 
 }
