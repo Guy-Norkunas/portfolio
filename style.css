@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: linear-gradient( cornflowerblue,rgb(47, 75, 202));
+    background-image: linear-gradient( cornflowerblue,rgb(51, 82, 221));
     background-position: 50% top;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -20,11 +20,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: start;
-
-    background-image: linear-gradient(rgb(47, 75, 202), cornflowerblue);
-    background-position: 50% top;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
 }
 
 nav {
@@ -76,7 +71,7 @@ nav a:active {
     height: 90%;
     width: 100%;
     margin-top: 50px;
-    background-color: rgba(114, 146, 66, 0.3);
+    background-image: linear-gradient( rgb(61, 105, 224),cornflowerblue);
 }
 
 footer {
