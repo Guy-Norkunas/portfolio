@@ -61,8 +61,8 @@ nav a {
 
 nav a:hover {
     background-color: indigo;
-    transition: padding 0.05s;
-    padding: 5px;
+    transition: transform 0.2s linear, background-color 0.2s linear;
+
 }
 
 nav a:active {
@@ -74,7 +74,6 @@ nav a:active {
     height: 90%;
     width: 100%;
     margin-top: 5%;
-    background-color: rgba(114, 146, 66, 0.3);
 }
 
 footer {
