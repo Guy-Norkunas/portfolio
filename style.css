@@ -19,7 +19,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: start;
 
+    background-image: linear-gradient(rgb(47, 75, 202), cornflowerblue);
+    background-position: 50% top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
 
 nav {
@@ -30,12 +35,11 @@ nav {
     border-style: solid;
     border-top: none;
     border-width: 2px;
-    height: 5%;
+    height: 50px;
     width: 50%;
     background-color: indianred;
 
     min-width: 316px;
-    min-height: 30px;
     max-width: 400px;
 }
 
@@ -73,7 +77,8 @@ nav a:active {
 .content {
     height: 90%;
     width: 100%;
-    margin-top: 5%;
+    margin-top: 50px;
+    background-color: rgba(114, 146, 66, 0.3);
 }
 
 footer {
