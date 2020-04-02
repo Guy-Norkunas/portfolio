@@ -309,21 +309,65 @@ footer a img{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-gap: 2% 2%;
+    color: white;
 }
 
 .aboutme h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    grid-column: 2 / 4;
+    grid-column: 1 / 5;
+    background-color: rgb(58, 87, 218);
+    border-radius: 10px;
+
+    font-size: 70px;
+}
+
+.aboutme #description {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px;
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    background-color: rgb(58, 87, 218);
+    border-radius: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.aboutme h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+    background-color: rgb(58, 87, 218);
+    border-radius: 10px;
+
+    font-size: 60px;
+}
+
+.aboutme #skill-1 {
+    grid-row: 4 / 5;
     background-color: rgb(58, 87, 218);
     border-radius: 10px;
 }
 
-.aboutme #description {
-    padding: 15px;
-    grid-column: 2 / 4;
-    grid-row: 2 / 3;
+.aboutme #skill-2 {
+    grid-row: 4 / 5;
+    background-color: rgb(58, 87, 218);
+    border-radius: 10px;
+}
+
+.aboutme #skill-3 {
+    grid-row: 4 / 5;
+    background-color: rgb(58, 87, 218);
+    border-radius: 10px;
+}
+
+.aboutme #skill-4 {
+    grid-row: 4 / 5;
     background-color: rgb(58, 87, 218);
     border-radius: 10px;
 }
