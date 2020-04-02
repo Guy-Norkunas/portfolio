@@ -226,7 +226,7 @@ footer {
 }
 
 .homepage #RedTailShark {
-    height: 10vw;
+    height: 5vw;
     width: auto;
     grid-row: 3 / 4;
     grid-column: 1 / 2;
@@ -243,25 +243,25 @@ footer {
 
 .AfricanCichlids img{
     width: auto;
-    height: 10vw;
+    height: 5vw;
 }
 
 .homepage #Clownfish {
-    height: 10vw;
+    height: 5vw;
     width: auto;
     grid-row: 5 / 6;
     grid-column: 2 / 3;
 }
 
 .homepage #Rainbowfish {
-    height: 10vw;
+    height: 5vw;
     width: auto;
     grid-row:  2 / 3;
     grid-column: 4 / 5;
 }
 
 .homepage #Sunfish {
-    height: 10vw;
+    height: 5vw;
     width: auto;
     grid-row: 5 / 6;
     grid-column: 5 / 6;
